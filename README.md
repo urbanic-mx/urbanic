@@ -49,26 +49,26 @@ See [See /GoToMarket.md](/GoToMarket.md)
 - Reduce the consumption of products that generate greenhouse gases through an economic model
 
 7. **Define the technical specifications and development roadmap**
-
-1. Landing design to collect emails and info from target users 
-  1.1 Create Mailchimp account and setup signup form
-  1.2 Inject the form into urbanic.world page
-  1.3 Add google anayltics to start measuring how many time the user spends on the site
-2. Implement python scraper to get air quality levels in Mexico cities
-  2.1 Create an instance on Digitital Ocean and setup a linux environment
-  2.2 Create Contract to store air quality info
-  2.2 Run the script to start collecting the data and submit transactions to the air quality contract
-  2.3 Create API endpoint to query the air quality data
-3. Implement ERC20 token $URBN
-  3.1 Implement API to mint tokens when users accredit some ecological action
-  3.2 Implement API to burn tokens when some company or users pay for its ecological impact
-  3.3 Implement API to know the price of one $URB based on the amount of trade and the air quality
-4. Develop web and mobile application on react native and connect with Cello
-  4.1 Implement View to register ecological activity and earn $URBN tokens
-  4.2 Implement QR code to validate that some user perform the ecological activity 
-  4.3 Implement View to burn and transfer $URNB tokens
-  4.4 Develop view to show the user how he/she helps the world with its activity
-5. Start to gamify the platform
-6. Implement footprint carbon calculator and allow the user to pay its impact with the given calculated amount
-7. Integrate $URBN on Shapeshift and Uniswapt as $wURBN
-
+```
+  1. Landing design to collect emails and info from target users 
+   1.1 Create Mailchimp account and setup signup form
+   1.2 Inject the form into urbanic.world page
+   1.3 Add google anayltics to start measuring how many time the user spends on the site
+  2. Implement python scraper to get air quality levels in Mexico cities
+   2.1 Create an instance on Digitital Ocean and setup a linux environment
+   2.2 Create Contract to store air quality info
+   2.2 Run the script to start collecting the data and submit transactions to the air quality contract
+   2.3 Create API endpoint to query the air quality data
+  3. Implement ERC20 token $URBN
+   3.1 Implement API to mint tokens when users accredit some ecological action
+   3.2 Implement API to burn tokens when some company or users pay for its ecological impact
+   3.3 Implement API to know the price of one $URB based on the amount of trade and the air quality
+  4. Develop web and mobile application on react native and connect with Cello
+   4.1 Implement View to register ecological activity and earn $URBN tokens
+   4.2 Implement QR code to validate that some user perform the ecological activity 
+   4.3 Implement View to burn and transfer $URNB tokens
+   4.4 Develop view to show the user how he/she helps the world with its activity
+  5. Start to gamify the platform
+  6. Implement footprint carbon calculator and allow the user to pay its impact with the given calculated amount
+  7. Integrate $URBN on Shapeshift and Uniswapt as $wURBN
+```
